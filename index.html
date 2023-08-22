@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="consularAlumnos">
+        <fieldset>  
+            <legend>Datos del alumno</legend>
+                <label for="nombre">nombre:</label>
+                    <input id="nombre"  name="nombre" type="text" placeholder="Ingrese su nombre" value="" maxlength="10" minlength="2" required> 
+    <br>
+    <br>
+                <label for="apelldio">apellido:</label>
+                    <input id="apellido"  name="apellido" type="text" placeholder="Ingrese su apellido" value="" maxlength="10" minlength="2" required>
+    <br>
+    <br>
+                <label for="edad">edad:</label>
+                    <input id="edad"  name="edad" type="number"  max="90" min="18" >
+    <br>
+    <br>
+                <label for="contraseña">contraseña:</label>
+                    <input id="contraseña"  name="contraseña" type="password" placeholder="Ingrese su contraseña" min="8" required >
+    <br>
+    <br>
+                <label for="fecha">fecha de nacimiento:</label>
+                    <input id="fecha"  name="fecha" type="date" placeholder="Ingrese su fecha de nacimiento" >
+    <br>
+    <br>
+                <label for="comentario">comentario:</label>
+                    <textarea name="comentario" id="comentario" ></textarea>
+        </fieldset>
+        <input type="submit">
+    </form>
+</body>
+</html>
